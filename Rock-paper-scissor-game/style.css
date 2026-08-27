@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+*{
+    margin : 0px;
+    padding: 0px;
+}
+.game-container{
+    background-color : black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height : 100vh;
+}
+
+ h1{
+    color: white;
+    text-align: center;
+    padding-top : 20px;
+    
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content : center;
+    align-items: center;
+    margin-top: 300px;
+}
+
+button{
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+    border-radius: 65%;
+    border-width: 0px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+
+}
+.rock-btn{
+ background-color: rgb(14, 248, 236);
+ border: 2px solid #6ee3f3;
+ box-shadow: 0px 0px 15px #53efef;
+ cursor: pointer;
+}
+
+.paper-btn{
+ background-color: rgb(43, 245, 137);
+ border: 2px solid #6ef398;
+ box-shadow: 0px 0px 15px #63f086;
+ cursor: pointer;
+}
+
+.scissor-btn{
+ background-color: rgb(240, 51, 67);
+ border: 2px solid #f37d9e;
+ box-shadow: 0px 0px 15px #ed556a;
+ cursor: pointer;
+}
