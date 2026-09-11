@@ -7,7 +7,7 @@
 }
 .game-container{
      background-image: linear-gradient(to right, rgb(241, 230, 102), rgb(235, 102, 215));
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
     height : 100vh;
     display : flex;
     flex-direction : column;
@@ -19,6 +19,7 @@
 
  h1{
     color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top : 20px;
     
 }
@@ -66,8 +67,9 @@ button{
 
 
 #displayMessage{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Roboto', sans-serif;
     font-size: 30px;
+    font-weight: 700;
 }
 .tie-message{
        color: yellow;
